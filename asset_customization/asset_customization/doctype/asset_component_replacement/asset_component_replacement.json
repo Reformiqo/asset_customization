@@ -1,0 +1,26 @@
+{
+  "actions": [],
+  "creation": "2026-03-13 00:00:00.000000",
+  "doctype": "DocType",
+  "engine": "InnoDB",
+  "field_order": ["replacement_date", "old_component_asset", "new_component_asset", "arpl_document", "reason", "replaced_by"],
+  "fields": [
+    {"fieldname": "replacement_date", "fieldtype": "Date", "label": "Replacement Date", "in_list_view": 1},
+    {"fieldname": "old_component_asset", "fieldtype": "Link", "label": "Old Component Asset", "options": "Asset", "in_list_view": 1},
+    {"fieldname": "new_component_asset", "fieldtype": "Link", "label": "New Component Asset", "options": "Asset", "in_list_view": 1},
+    {"fieldname": "arpl_document", "fieldtype": "Link", "label": "ARPL Document", "options": "Asset Replacement", "in_list_view": 1},
+    {"fieldname": "reason", "fieldtype": "Data", "label": "Reason", "in_list_view": 1},
+    {"fieldname": "replaced_by", "fieldtype": "Link", "label": "Replaced By", "options": "User", "in_list_view": 1}
+  ],
+  "index_web_pages_for_search": 0,
+  "istable": 1,
+  "links": [],
+  "modified": "2026-03-13 00:00:00.000000",
+  "modified_by": "Administrator",
+  "module": "Asset Customization",
+  "name": "Asset Component Replacement",
+  "owner": "Administrator",
+  "permissions": [],
+  "sort_field": "modified",
+  "sort_order": "DESC"
+}

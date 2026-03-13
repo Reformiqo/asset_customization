@@ -1,0 +1,21 @@
+[project]
+name = "asset_customization"
+description = "Asset Component Replacement workflow for ERPNext"
+dynamic = ["version"]
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.bench]
+app-name = "asset_customization"
+app-title = "Asset Customization"
+app-publisher = "Reformiqo"
+app-description = "Asset Component Replacement workflow for ERPNext"
+app-email = "consultant.reformiqo@gmail.com"
+app-license = "MIT"
+
+[tool.bench.frappe-dependencies]
+frappe = ">=15.0.0,<17.0.0"
+erpnext = ">=15.0.0,<17.0.0"
